@@ -5,5 +5,8 @@ class Board:
         for i in range(20):
             self.grid.append(['?'] * 20)
 
-        self.player_coordinates = self.grid
+        self.player_coordinates = []
+
+        for i in range(20):
+            self.player_coordinates.append(['?'] * 20)
             

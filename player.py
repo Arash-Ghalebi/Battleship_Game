@@ -27,7 +27,7 @@ class Player:
     def player_attack(self):
         y = int(input(f"Input the row coordinates you wish to attack(1 - 20): "))
         x = int(input(f"Input the column coordinates you wish to attack(1 - 20): "))
-        return y,x
+        return y, x
 
 
     def print_board(self):
